@@ -12,12 +12,12 @@
 ---
 
 ## Linguagens e Grupos
-[Informações sobres as linguagenes](/linguagens.md).
+[Informações sobres as linguagens](/linguagens.md).
 
 ## Tutorial Docker Compose (Python Echo)
 
 - by copilot [Tutorial de cliente/servidor echo com Docker Compose](/docker-compose-echo-python/README.md)
-- [exemplo de sala com servidor e cliente sem threds](/exemplo_sem_thread/)
+- [exemplo de sala com servidor e cliente sem threads](/exemplo_sem_thread/)
 
 | Linguagem| Integrantes |
 | ---------- | ----------- |
