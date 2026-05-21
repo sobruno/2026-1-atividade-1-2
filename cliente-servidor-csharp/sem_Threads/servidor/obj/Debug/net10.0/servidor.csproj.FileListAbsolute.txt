@@ -1,0 +1,15 @@
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/bin/Debug/net10.0/servidor
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/bin/Debug/net10.0/servidor.deps.json
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/bin/Debug/net10.0/servidor.runtimeconfig.json
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/bin/Debug/net10.0/servidor.dll
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/bin/Debug/net10.0/servidor.pdb
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.AssemblyInfoInputs.cache
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.AssemblyInfo.cs
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.csproj.CoreCompileInputs.cache
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.sourcelink.json
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.dll
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/refint/servidor.dll
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.pdb
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/servidor.genruntimeconfig.cache
+/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/sem_Threads/servidor/obj/Debug/net10.0/ref/servidor.dll

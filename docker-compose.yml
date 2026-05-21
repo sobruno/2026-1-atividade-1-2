@@ -1,0 +1,15 @@
+services:
+
+  servidor:
+    build: ./servidor
+    container_name: servidor-csharp
+    ports:
+      - "5000:5000"
+
+  cliente:
+    build: ./cliente
+    container_name: cliente-csharp
+    stdin_open: true
+    tty: true
+    depends_on:
+      - servidor
