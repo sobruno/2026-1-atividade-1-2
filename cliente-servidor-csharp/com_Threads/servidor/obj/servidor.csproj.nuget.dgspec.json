@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/servidor/servidor.csproj": {}
+    "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/servidor/servidor.csproj": {}
   },
   "projects": {
-    "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/servidor/servidor.csproj": {
+    "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/servidor/servidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/servidor/servidor.csproj",
+        "projectUniqueName": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/servidor/servidor.csproj",
         "projectName": "servidor",
-        "projectPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/servidor/servidor.csproj",
+        "projectPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/servidor/servidor.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/servidor/obj/",
+        "outputPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/servidor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
