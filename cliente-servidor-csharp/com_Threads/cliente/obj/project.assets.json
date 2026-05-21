@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/cliente/cliente.csproj",
+      "projectUniqueName": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/cliente/cliente.csproj",
       "projectName": "cliente",
-      "projectPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/cliente/cliente.csproj",
+      "projectPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/cliente/cliente.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/cliente/obj/",
+      "outputPath": "/workspaces/2026-1-atividade-1-2/cliente-servidor-csharp/com_Threads/cliente/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
