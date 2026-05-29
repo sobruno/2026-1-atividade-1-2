@@ -1,14 +1,133 @@
 services:
 
   servidor:
-    build: ./cliente-servidor-csharp/servidor
-    container_name: servidor-csharp
+    build: ./cliente-servidor-csharp/sem_Threads/servidor
+    container_name: servidor-sem-threads
     ports:
       - "5000:5000"
+    networks:
+      - rede-csharp
 
-  cliente:
-    build: ./cliente-servidor-csharp/cliente
+  cliente1:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-1
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=1
     depends_on:
       - servidor
-    deploy:
-      replicas: 10
+    networks:
+      - rede-csharp
+
+  cliente2:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-2
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=2
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente3:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-3
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=3
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente4:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-4
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=4
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente5:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-5
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=5
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente6:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-6
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=6
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente7:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-7
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=7
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente8:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-8
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=8
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente9:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-9
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=9
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+  cliente10:
+    build: ./cliente-servidor-csharp/sem_Threads/cliente-auto
+    container_name: cliente-sem-threads-10
+    environment:
+      - SERVER_HOST=servidor
+      - SERVER_PORT=5000
+      - CLIENTE_ID=10
+    depends_on:
+      - servidor
+    networks:
+      - rede-csharp
+
+networks:
+  rede-csharp:
+    driver: bridge
