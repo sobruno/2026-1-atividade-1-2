@@ -1,15 +1,14 @@
 services:
 
   servidor:
-    build: ./servidor
+    build: ./cliente-servidor-csharp/servidor
     container_name: servidor-csharp
     ports:
       - "5000:5000"
 
   cliente:
-    build: ./cliente
-    container_name: cliente-csharp
-    stdin_open: true
-    tty: true
+    build: ./cliente-servidor-csharp/cliente
     depends_on:
       - servidor
+    deploy:
+      replicas: 10
